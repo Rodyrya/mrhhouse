@@ -1,0 +1,476 @@
+@import url('http://fonts.cdnfonts.com/css/recoleta');
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.logo{
+  height:50px;
+  width:50px;
+  cursor: pointer;
+  background-color: white;
+  margin-left: 0px;
+}
+li{
+  font-family: 'Gigantic FS', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  color: black;
+  background-color: white;
+  
+}
+.header{
+  display: flex;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 15%;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0px;
+  padding: 30px 10%;
+  background-color: white;
+  postition: sticky;
+  font-family: 'Gigantic FS', sans-serif;
+  font-weight: 500;
+  font-size: auto;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-bottom-color: black;
+  z-index:1;
+}
+nav ul li{
+  display: inline-block;
+  padding: 0 25px;
+  background-color: white;
+}
+nav ul li:hover{
+  border-bottom-style: solid;
+  border-bottom-color: #FFFF00;
+  transition: border 0.05s;
+}
+h1{
+  font-family: 'Gigantic FS', sans-serif;
+  font-weight: 2000;
+  font-size: 40px;
+  text-align: center;
+  padding: 20px 20px;
+}
+.t-s1 img{
+  height:200px;
+  width:150px;
+  cursor: pointer;
+  align-item: center;
+}
+.jogging img{
+  height:200px;
+  width:110px;
+  cursor: pointer;
+  align-item: center;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.manteau img{
+  height:200px;
+  width:150px;
+  cursor: pointer;
+  align-item: center;
+}
+.t-s1 {
+  text-align: center;
+  padding: 0px 20px;
+  margin: 60px;
+  padding-top: 20px;
+  text-align: center;
+  border-style: solid;
+  border-color: white;
+  border-width: 0.5px;
+  box-shadow: 10px 10px white;
+  font-size: 130%;
+  font-weight: 250;
+}
+.t-s1:hover {
+ transform: scale(1.2);
+ transition: transform 0.15s;
+}
+.jogging {
+  text-align: center;
+  padding: 0px 20px;
+  margin: 60px;
+  padding-top: 20px;
+  text-align: center;
+  border-style: solid;
+  border-color: white;
+  border-width: 0.5px;
+  box-shadow: 10px 10px white;
+  font-size: 130%;
+  font-weight: 250;
+}
+.jogging:hover {
+ transform: scale(1.2);
+ transition: transform 0.15s;
+}
+.manteau {
+  padding: 0px 20px;
+  margin: 60px;
+  padding-top: 20px;
+  text-align: center;
+  border-style: solid;
+  border-color: white;
+  border-width: 0.5px;
+  box-shadow: 10px 10px white;
+  font-size: 130%;
+  font-weight: 250;
+}
+.manteau:hover {
+ transform: scale(1.2);
+ transition: transform 0.15s;
+}
+.slogan{
+  margin-top: 150px;
+  font-family: 'Bebas Neue', sans-serif;
+  font-weight: 2000;
+  background-color: #fff;
+  color: #FFFF00;
+  text-shadow: 1.75px 1.75px 0px  black, -1.75px -1.75px 0px  black, 1.75px -1.75px 0px  black, -1.75px 1.75px 0px  black, 0px 1px 0px black, 0px 2px 0px black, 0px 5px 0px black, 0px 3px 0px black, 0px 4px 0px black, 0px 5px 0px black, 0px 6px 0px black, 0px 7px 0px black;
+  background-color: #FFFF00;
+}
+article{
+  font-family: 'Bebas Neue', sans-serif;
+  font-weight: 2000;
+  background-color: #121212;
+  color: white;
+}
+.tendances{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: auto;
+}
+.END{
+  background-image: url('https://images.unsplash.com/photo-1620799140408-edc6dcb6d633?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1072&q=80');
+  height: 100%;
+  width: 100%;
+  margin-top: 40px;
+}
+.fashion{
+  font-family: 'Gigantic FS', sans-serif;
+  font-weight: 2000;
+  font-size: 40px;
+  text-align: center;
+  padding: 20px 20px;
+  padding-top: 150px;
+  padding-bottom: 150px;
+  color: rgb(255, 255, 255, 1);
+  background-color: rgb(0, 0, 0, 0.75);
+}
+footer{
+  font-family: 'Gigantic FS', sans-serif;
+  font-weight: 2000;
+  font-size: 7.5px;
+  color: #FFFFFF;
+  background-color: rgb(0, 0, 0);
+  padding: 10px;
+  display: flex;
+  position: fixed;
+  bottom: 0;
+}
+.t-shirt{
+  font-family: 'Bebas Neue', sans-serif;
+  font-weight: 2000;
+  background-color: #121212;
+  color: white;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: auto;
+}
+.t-shirt_1 {
+   text-align: center;
+  padding: 0px 20px;
+  margin-bottom: auto;
+  margin-top: 0px;
+  margin-right: 120px;
+  padding-top: 20px;
+  text-align: center;
+  border-style: solid;
+  border-color: white;
+  border-width: 0.5px;
+  box-shadow: 10px 10px white;
+  font-size: 130%;
+  font-weight: 250;
+}
+.t-shirt_1 img{
+  height:200px;
+  width:150px;
+  cursor: pointer;
+  align-item: center;
+}
+.t-shirt_1:hover {
+ transform: scale(1.2);
+ transition: transform 0.15s;
+}
+.t-shirt_2 {
+   text-align: center;
+  padding: 0px 20px;
+  margin-bottom: auto;
+  margin-top: 0px;
+  margin-right: 120px;
+  padding-top: 20px;
+  text-align: center;
+  border-style: solid;
+  border-color: white;
+  border-width: 0.5px;
+  box-shadow: 10px 10px white;
+  font-size: 130%;
+  font-weight: 250;
+}
+.t-shirt_2 img{
+  height:200px;
+  width:150px;
+  cursor: pointer;
+  align-item: center;
+}
+.t-shirt_2:hover {
+ transform: scale(1.2);
+ transition: transform 0.15s;
+}
+.t-shirt_3 {
+  text-align: center;
+  padding: 0px 20px;
+  margin-bottom: 60px;
+  margin-top: 0px;
+  padding-top: 20px;
+  text-align: center;
+  border-style: solid;
+  border-color: white;
+  border-width: 0.5px;
+  box-shadow: 10px 10px white;
+  font-size: 130%;
+  font-weight: 250; 
+}
+.t-shirt_3 img{
+  height:200px;
+  width:150px;
+  cursor: pointer;
+  align-item: center;
+}
+.t-shirt_3:hover {
+ transform: scale(1.2);
+ transition: transform 0.15s;
+}
+h2{
+  font-family: 'Gigantic FS', sans-serif;
+  font-weight: 2000;
+  font-size: 40px;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 0px;
+  background-color: #121212;
+  color: #fff;
+}
+h3{
+  font-family: 'Gigantic FS', sans-serif;
+  font-weight: 2000;
+  font-size: 40px;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 0px;
+  background-color: #FFFF00;
+  color: #121212;
+}
+h4{
+  font-family: 'Gigantic FS', sans-serif;
+  font-weight: 2000;
+  font-size: 40px;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 0px;
+  background-color: #121212;
+  color: #fff;
+}
+a:link {
+  color: black; 
+  background-color: transparent; 
+  text-decoration: none;
+}
+a:visited {
+  color: black; 
+  background-color: transparent; 
+  text-decoration: none;
+}
+.pull{
+  font-family: 'Bebas Neue', sans-serif;
+  font-weight: 2000;
+  background-color: #FFFF00;
+  color: #121212;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: auto;
+}
+.pull_1 {
+   text-align: center;
+  padding: 0px 20px;
+  margin-bottom: auto;
+  margin-top: 0px;
+  margin-right: 120px;
+  padding-top: 20px;
+  text-align: center;
+  border-style: solid;
+  border-color: #121212;
+  border-width: 0.5px;
+  box-shadow: 10px 10px #121212;
+  font-size: 130%;
+  font-weight: 500;
+}
+.pull_1 img{
+  height:200px;
+  width:150px;
+  cursor: pointer;
+  align-item: center;
+}
+.pull_1:hover {
+ transform: scale(1.2);
+ transition: transform 0.15s;
+}
+.pull_2 {
+   text-align: center;
+  padding: 0px 20px;
+  margin-bottom: auto;
+  margin-top: 0px;
+  margin-right: 120px;
+  padding-top: 20px;
+  text-align: center;
+  border-style: solid;
+  border-color: #121212;
+  border-width: 0.5px;
+  box-shadow: 10px 10px #121212;
+  font-size: 130%;
+  font-weight: 500;
+}
+.pull_2 img{
+  height:200px;
+  width:150px;
+  cursor: pointer;
+  align-item: center;
+}
+.pull_2:hover {
+ transform: scale(1.2);
+ transition: transform 0.15s;
+}
+.pull_3 {
+  text-align: center;
+  padding: 0px 20px;
+  margin-bottom: 60px;
+  margin-top: 0px;
+  padding-top: 20px;
+  text-align: center;
+  border-style: solid;
+  border-color: #121212;
+  border-width: 0.5px;
+  box-shadow: 10px 10px #121212;
+  font-size: 130%;
+  font-weight: 500; 
+}
+.pull_3 img{
+  height:200px;
+  width:150px;
+  cursor: pointer;
+  align-item: center;
+}
+.pull_3:hover {
+ transform: scale(1.2);
+ transition: transform 0.15s;
+}
+.entre{
+  background-color: #121212;
+}
+.accessoires{
+  font-family: 'Bebas Neue', sans-serif;
+  font-weight: 2000;
+  background-color: #121212;
+  color: white;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: auto;
+}
+.cap {
+   text-align: center;
+  padding: 50px 20px;
+  margin-bottom: auto;
+  margin-top: 0px;
+  margin-right: 120px;
+  padding-top: 20px;
+  text-align: center;
+  border-style: solid;
+  border-color: white;
+  border-width: 0.5px;
+  box-shadow: 10px 10px white;
+  font-size: 130%;
+  font-weight: 500;
+}
+.cap img{
+  height:150px;
+  width:150px;
+  cursor: pointer;
+  align-item: center;
+}
+.cap:hover {
+ transform: scale(1.2);
+ transition: transform 0.15s;
+}
+.bag {
+   text-align: center;
+  padding: 0px 20px;
+  margin-bottom: auto;
+  margin-top: 0px;
+  margin-right: 120px;
+  padding-top: 20px;
+  text-align: center;
+  border-style: solid;
+  border-color: white;
+  border-width: 0.5px;
+  box-shadow: 10px 10px white;
+  font-size: 130%;
+  font-weight: 500;
+}
+.bag img{
+  height:200px;
+  width:150px;
+  cursor: pointer;
+  align-item: center;
+}
+.bag:hover {
+ transform: scale(1.2);
+ transition: transform 0.15s;
+}
+.shoe {
+  text-align: center;
+  padding: 50px 20px;
+  margin-bottom: 60px;
+  margin-top: 0px;
+  padding-top: 20px;
+  text-align: center;
+  border-style: solid;
+  border-color: white;
+  border-width: 0.5px;
+  box-shadow: 10px 10px white;
+  font-size: 130%;
+  font-weight: 500; 
+}
+.shoe img{
+  height:150px;
+  width:150px;
+  cursor: pointer;
+  align-item: center;
+}
+.shoe:hover {
+ transform: scale(1.2);
+ transition: transform 0.15s;
+}
